@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "MkPOP";
+    src: url("./851MkPOP_101.ttf");  format('ttf');
+}
+
+.mkpop {
+  font-family: "MkPOP";
+  letter-spacing: -0.1em;
+}
+body {
+	font-family: Sans-serif, Arial;
+	margin: 50px;
+	background-color: #f09199;
+	width: 600px;
+}
+h1 {
+	margin-bottom: 30px;
+	font-family: "MkPOP"
+}
+box {
+	width: 600px;
+}
+button {
+	padding: 5px 10px;
+	background-color: #e2041b;
+	color: white;
+	border: 3px solid #a22041;
+	font-size: 16px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #e95464;
+}
+div.boxcont {
+	border: 3px solid #a22041;
+	background-color: #fdeff2;
+	width: 600px;
+	height: 100px;
+	position: relative;
+	font-size: 25px;
+	font-family: "MkPOP"
+}
+p.phrase {
+	text-align: center;
+	margin: 0 auto 0 5%;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+img {
+	margin-top: 30px;
+	max-width: 600px;
+}
